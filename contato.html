@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="imgdemo" src="img/logo.png" alt="">
+        <h1>Mentoria Online Brasil</h1>
+        <h2>Um lugar onde alunos encontram mentores especializados sem precisar sair de casa.</h2>
+        <p>Seja bem vindo à MOB</p>
+        <p>Um projeto voltado para mentorias online para alunos com dificuldade na escola.</p>
+        <ul class="topnav">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+            <li><a href="equipe.html">Nossa Equipe</a></li>
+          </ul>
+    </header>
+    <div id="content_contato">
+        <p>Preencha o formulário para entrar em contato conosco e tirar suas dúvidas</p>
+        <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Nome</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">E-mail</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Seu e-mail">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="fname">Cidade</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Sua cidade">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Estado</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Seu estado">
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="idade">Idade do aluno</label>
+              </div>
+              <div class="col-75">
+                <select id="idade" name="country">
+                  <option value="6_10">Entre 6 e 10 anos</option>
+                  <option value="11_15">Entre 11 e 15 anos</option>
+                  <option value="16_18">Entre 16 e 18 anos</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Texto</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Escreva sua dúvida e comentários" style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Enviar"> 
+            </div>
+          </form>
+    </div>
+    <footer>&copy; Copyright 2021 mob.com.br</footer>
+</body>
+</html>
